@@ -449,7 +449,7 @@ margin-top: 1rem;
     @media only screen and (min-width:1200px) {
         .container-title{
             display:flex;
-            justify-content: space-between;
+            justify-content: space-around;
             flex-direction: row-reverse;
         }
         .title-caption__text-container{
@@ -731,6 +731,7 @@ margin-top: 1rem;
         .form-container{
             display: flex;
             flex-direction: row-reverse;
+            justify-content: center;
         }
         .input-container{
             width: 37rem;
